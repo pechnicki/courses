@@ -1,5 +1,4 @@
 #!/bin/bash
-
 minikube kubectl -- apply -f deployments/vote.yaml
 minikube kubectl -- apply -f services/vote.yaml
 minikube kubectl -- apply -f deployments/redis.yaml
